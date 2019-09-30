@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="is">
+  <head>
+    <meta charset="utf-8">
+    <title>Form</title>
+  </head>
+  <body>
+    <form method="get" action=".">
+      <h1>Form</h1>
+      <fieldset>
+      <legend>Notandi</legend>
+        <label for ="username">Notendanafn:</label>
+          <input type="username" name="username" id="username" required><br>
+        <label for="email">Email:</label>
+          <input type="email" name="email" id="email" required><br>
+        <label for="password">Lykilorð:</label>
+          <input type="password" name="password" id="password" required><br>
+        <label for="password1">Lykilorð aftur:</label>
+          <input for="password1" name="password1" id="password1" required>
+        Lykilorð verða að vera eins
+      </fieldset>
+
+      <fieldset>
+        <legend>Spurningar</legend>
+        Kyn:<br>
+        <label>
+          <input name="sex" type="radio" value="man">
+          Karl
+          </label>
+        <label>
+          <input name="sex" type="radio" value="woman">
+          Kona
+          </label>
+        <label>
+          <input name="sex" type="radio" value="other">
+          Annað
+        </label><br>
+
+        <label>
+          Aldur:
+          <select>
+            <option>Yngri en 13 ára</option>
+            <option>13-20 ára</option>
+            <option>21-65 ára</option>
+            <option>Eldri en 65 ára</option>
+          </select>
+        </label><br>
+        <label>
+          <input name="check" type="checkbox" value="send copy">
+          Senda afrit af notendaupplýsingum á netfang
+        </label><br>
+      <label>Athugasemdir</label>
+        <textarea></textarea>
+      </fieldset>
+      </form>
+      <label>
+        <input name="submit" type="submit" value="Senda">
+      </label>
+      <hr>
+      <ul>
+        <li>
+          <a href="../index.html">Forsíða</a>
+        </li>
+        <li>
+          <a href=""><strong>Form</strong></a>
+        </li>
+        <li>
+          <a href="table.html">Tafla</a>
+        </li>
+        <li>
+          <a href="text.html">Text</a>
+        </li>
+      </ul>
+
+  </body>
+</html>

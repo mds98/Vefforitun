@@ -1,0 +1,240 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 28px;
+  line-height: 2;
+}
+
+body {
+  background-color: #333;
+  color: #ddd;
+}
+
+header {
+  background-image: url(img/trees.jpg);
+  background-size: cover;
+  background-position: center;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+  width: 100vw;
+}
+
+header p {
+  font-family: 'Merriweather';
+  text-transform: uppercase;
+  color: #333;
+  text-align: center;
+  font-size: 1em;
+  max-width: 40em;
+}
+
+p {
+  font-family: 'Merriweather', serif;
+  font-size: 0.5em;
+  padding: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 50em;
+}
+
+h1 {
+  font-family: 'IM Fell DW Pica', serif;
+  color: #333;
+  text-align: center;
+  padding-top: 20vh;
+  padding-bottom: 1em;
+}
+
+h2 {
+  font-family: 'IM Fell DW Pica', serif;
+  color: #333;
+  text-align: center;
+  padding-bottom: 10vh;
+}
+
+blockquote {
+  font-family: 'Merriweather', serif;
+  font-style: italic;
+  text-align: right;
+  font-size: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 50em;
+
+}
+
+cite {
+  font-family: 'Merriweather', serif;
+  text-transform: uppercase;
+  font-style: normal;
+  font-size: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 50em;
+
+}
+
+
+.postscript {
+  background-image: url(img/trees.jpg);
+  background-position: center;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+}
+
+.postscript h2 {
+  padding-top: 20vh;
+  text-transform: uppercase;
+}
+
+.postscript p {
+  text-transform: uppercase;
+  text-align: center;
+  color: #333;
+  font-size: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 40em;
+}
+
+.one p:nth-of-type(1)::first-letter {
+  font-size: 6em;
+  float: left;
+  line-height: 1em;
+  padding-right: 0.1em;
+  font-weight: bold;
+}
+
+.one p:nth-of-type(1)::first-line {
+  text-indent: inherit;
+}
+
+
+.two p:nth-of-type(1)::first-letter {
+  font-size: 6em;
+  float: left;
+  line-height: 1em;
+  padding-right: 0.1em;
+  font-weight: bold;
+}
+
+.two p:nth-of-type(1)::first-line {
+  text-indent: inherit;
+}
+
+.three p:nth-of-type(1)::first-letter {
+  font-size: 6em;
+  float: left;
+  line-height: 1em;
+  padding-right: 0.1em;
+  font-weight: bold;
+}
+
+.three p:nth-of-type(1)::first-line {
+  text-indent: inherit;
+}
+
+.four p:nth-of-type(1)::first-letter {
+  font-size: 6em;
+  float: left;
+  line-height: 1em;
+  padding-right: 0.1em;
+  font-weight: bold;
+}
+
+.four p:nth-of-type(1)::first-line {
+  text-indent: inherit;
+}
+
+.five p:nth-of-type(1)::first-letter {
+  font-size: 6em;
+  float: left;
+  line-height: 1em;
+  padding-right: 0.1em;
+  font-weight: bold;
+}
+
+.five p:nth-of-type(1)::first-line {
+  text-indent: inherit;
+}
+
+p::first-line {
+  text-indent: 2em;
+}
+
+footer {
+  background-color: #ddd;
+  color: #333;
+}
+
+li {
+  font-size: 0.5em;
+  padding: 0em;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 50em;
+  list-style-type: none;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.tree {
+  background-image: url(img/tree-fog.jpg);
+  background-size: cover;
+  background-position: center;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+  width: 100vw;
+}
+
+.castle {
+  background-image: url(img/castle.jpg);
+  background-size: cover;
+  background-position: center;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+  width: 100vw;
+}
+
+.hands {
+  background-image: url(img/hands.jpg);
+  background-size: cover;
+  background-position: center;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+  width: 100vw;
+}
+
+.moon {
+  background-image: url(img/moon.jpg);
+  background-size: cover;
+  background-position: center;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+  width: 100vw;
+}
